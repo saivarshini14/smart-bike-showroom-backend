@@ -10,8 +10,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/customers")
 @CrossOrigin(origins = {
-        "http://localhost:5173",
-        "http://localhost:5174"
+        "https://smart-bike-showroom-frontend.onrender.com"
 })
 public class CustomerController {
 
